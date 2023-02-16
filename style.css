@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-image: radial-gradient(#6e6eaa, #2d2d7c, #000055);
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #525252;
+}
+
+.form {
+    width: 33vw;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 5px;
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 1px 1px 5px black;
+    background: #fff;
+}
+
+h1 {
+    color: #000055;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.control {
+    padding: 5px 0;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: solid 1px #d1d1d1;
+    resize: none;
+}
+
+button {
+    background-color: #000055;
+    color: #fff;
+    border: solid 1px #000055;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2d2d7c;
+}
+
+.mensagem-validacao {
+    color: red;
+    font-size: 12px;
+}
+
+.mensagem-sucesso {
+    color: green;
+    background: rgb(183, 255, 183);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin-bottom: 10px;
+}
+
+.mensagem-erro {
+    color: red;
+    background: rgb(255, 183, 183);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
